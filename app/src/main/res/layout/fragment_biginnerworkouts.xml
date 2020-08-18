@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".biginnerworkouts">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="422dp"
+        android:layout_height="83dp"
+        android:background="#187bcd"
+        android:drawableStart="@drawable/ic_hardware_keyboard_arrow_left"
+        android:text="@string/biginbtn1"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:text="@string/beginbtn2"
+        android:layout_height="83dp"
+        android:background="#187bcd"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="@string/binbtn3"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="match_parent"
+        android:text="@string/biginbtn4"
+        android:layout_height="73dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textSize="15sp"
+        android:text="@string/beginbtn5" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textSize="15sp"
+        android:text="@string/beginbtn6" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textSize="15sp"
+        android:text="@string/bginbtn7" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:textSize="15sp"
+        android:text="@string/beginbtn8"
+        android:background="#187bcd"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

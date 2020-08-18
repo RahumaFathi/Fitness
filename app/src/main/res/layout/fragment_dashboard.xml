@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd=""
+    android:background="#F6F6F6"
+    android:backgroundTintMode="screen"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical"
+    tools:context=".ui.DashboardFragment">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:backgroundTint="#5B70E4"
+        android:backgroundTintMode="src_in"
+
+        android:drawableStart="@drawable/ic_dashboard"
+        android:text="@string/dashTop"
+        android:textColor="#F1EEEE"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:drawableStart="@drawable/ic_push_ups"
+        android:text="@string/dashbtn2"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:drawableStart="@drawable/ic_diet_plan"
+        android:text="@string/dashbtn3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="95sp"
+        android:drawableStart="@drawable/ic_download_water"
+        android:text="@string/dashbtn5"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="95sp"
+        android:drawableStart="@drawable/ic_download"
+        android:text="@string/dashbtn6"
+        android:textSize="16sp" />
+</LinearLayout>

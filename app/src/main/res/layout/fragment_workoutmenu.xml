@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workoutmenu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:text="@string/workmenbtn1"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:background="#187bcd"
+            android:drawableStart="@drawable/ic_hardware_keyboard_arrow_left"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+           />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#97C8EF"
+            android:text="@string/workoutmen2"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:text="@string/workmenu3"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/workmenubtn4"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:text="@string/workmenubtn5"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:text="@string/workmenubtn6"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:text="@string/startworkbtn"
+            android:layout_height="79dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="8dp"
+            android:background="#187bcd"
+            android:textColor="#ffffff"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
